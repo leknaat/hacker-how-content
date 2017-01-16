@@ -1,4 +1,4 @@
-# Git Cheat Sheet
+# Command line cheat sheet
 
 ## Actions
 
