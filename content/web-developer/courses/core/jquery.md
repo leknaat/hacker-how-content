@@ -29,7 +29,6 @@ IMO where jQuery falls down is the maintainabiilty of the code as you build a la
 ### Alternative
 
 * [jQuery docs](https://api.jquery.com/) (Could be better really.)
-### Additional / useful
 * [better? jQuery docs](http://jqapi.com/)
 
 ## Tasks
