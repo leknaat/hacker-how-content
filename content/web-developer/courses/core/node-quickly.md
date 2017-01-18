@@ -32,5 +32,5 @@ Skim first 3, no exercises. Level 4 in detail. (No other levels)
 
 * Run through the code school course (1-3) probs don't bother with tasks.
 * Pay close attention to Level 4. Module system + npm will be important very soon. Do the tasks for this level.
-* [Install node on your mac](https://gist.github.com/richardgill/4b13958b6ad0267f8e07)
+* Install nvm (node version manager) on your machine [Mac](https://gist.github.com/richardgill/4b13958b6ad0267f8e07) or [Linux](https://github.com/creationix/nvm#install-script). This will let you switch between different versions of node easily. Node includes NPM.
 
