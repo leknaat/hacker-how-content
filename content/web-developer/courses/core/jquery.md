@@ -34,5 +34,5 @@ IMO where jQuery falls down is the maintainabiilty of the code as you build a la
 ## Tasks
 
 * Run through the code school course + tasks.
-* Build a website with a button 'Find me a hero button' that picks a random Dota 2 Hero and displays their name and picture every time you click the button.
+* Build a website with a button 'Find me a cat button' that picks a random cat and displays their name and picture every time you click the button. (Please source your cats responsibily / ethically)
 
