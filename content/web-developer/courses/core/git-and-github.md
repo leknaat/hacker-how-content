@@ -40,10 +40,10 @@ We'll be using the Pull Request model so we can take a look at the code you're w
 * Setup git on local machine (you should be using SSH rather than https when you use git (no password prompts))
   * Mac:
     * Install git via [Brew](http://brew.sh/)
-    * [Git Radar](https://github.com/michaeldfallen/git-radar), which makes your command line look awesome.
+    * Install [Git Radar](https://github.com/michaeldfallen/git-radar), which makes your command line look awesome.
   * Linux:
     * Install git via apt-get on the command line
-    * [Git Radar](http://www.getdeb.net/software/git-radar), which makes your command line look awesome.
+    * Install [Git Radar](http://www.getdeb.net/software/git-radar), which makes your command line look awesome.
   
 * Create a public git repo, create a readme.md, do a commit to master, put that commit on github, create a branch, do a change to readme.md, submit a pull request on that branch on github which we will approve :smile:
 * Start using it for all your future task submissions once you're done :smile:
