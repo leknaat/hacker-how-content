@@ -31,6 +31,7 @@ We'll be using the Pull Request model so we can take a look at the code you're w
 
 ### Additional / useful
 
+[My Homemade git cheatsheet](../../resources/git-cheat-sheet.md)
 [Git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 ## Tasks
