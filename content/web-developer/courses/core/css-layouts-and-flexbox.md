@@ -21,13 +21,15 @@ When something is prefixed with `webkit-` you shouldn't need to do that (that's 
 Bare in mind [which browsers flexbox supports](http://caniuse.com/#feat=flexbox)
 
 ## Learning materials
-
+* [Code School](https://www.codeschool.com/courses/cracking-the-case-with-flexbox)
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
 * https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
 * http://learnlayout.com/flexbox.html
 
 ## Tasks
+
+Codeschool
 
 https://docs.google.com/document/d/1XtgmPh_edSk_H-EUlhiyfurmlEkytNjZXdwBDgnNTIg/edit?usp=sharing
 
