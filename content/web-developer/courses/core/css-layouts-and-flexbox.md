@@ -1,4 +1,4 @@
-#CSS layouts and Flexbox(Not ready)
+#CSS layouts and Flexbox
 
 ## Outcome
 
