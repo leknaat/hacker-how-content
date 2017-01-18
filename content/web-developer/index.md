@@ -6,42 +6,42 @@ The course is designed around 'Abilities' and grouped into courses. The scheme i
 
 Courses typically consist of hand picked material from across the web. Suplimented with any other relevant information and some tasks.
 
-Before you start please complete the [prerequisites](courses/core/0-prerequisites.md).
+Before you start please complete the [prerequisites](courses/core/prerequisites.md).
 
 ## Abilities
 
 * Build static website with basic styling
-  * [HTML and CSS foundations](courses/core/1-html-and-css-foundations.md)
+  * [HTML and CSS foundations](courses/core/html-and-css-foundations.md)
 
 * Collaborating with others
-  * [Git / Github](courses/core/4-git-and-github.md)
+  * [Git / Github](courses/core/git-and-github.md)
 
 * Building an interactive website (2010 style!, looks horrible)
-  * [Javascript Foundations](courses/core/3-javascript-foundations.md)
-  * [JQuery](courses/core/5-jquery.md)
-  * [Underscore / Lodash](courses/side-quests/c-underscore-and-lodash.md)
+  * [Javascript Foundations](courses/core/javascript-foundations.md)
+  * [JQuery](courses/core/jquery.md)
+  * [Underscore / Lodash](courses/core/underscore-and-lodash.md)
 
 * Nicely styling websites
-  * [Bootstrap](courses/core/2-bootstrap.md)
-  * [Sass](courses/core/7-sass.md)
-  * [Npm (and require)](courses/core/6-node-quickly.md)
-  * [Webpack for 'building' a codebase](courses/core/8-webpack.md)
-  * [Bootstrap with Sass](courses/core/9-bootstrap-with-sass.md)
-  * [CSS Layouts and Flexbox](courses/side-quests/b-css-layouts-and-flexbox.md)
+  * [Bootstrap](courses/core/bootstrap.md)
+  * [Sass](courses/core/sass.md)
+  * [Npm (and require)](courses/core/node-quickly.md)
+  * [Webpack for 'building' a codebase](courses/core/webpack.md)
+  * [Bootstrap with Sass](courses/core/bootstrap-with-sass.md)
+  * [CSS Layouts and Flexbox](courses/core/css-layouts-and-flexbox.md)
 
 * Accessing external data via HTTP JSON APIs
-  * [HTTP](courses/core/11-http.md)
-  * [HTTP APIs](courses/core/12-http-apis.md)
-  * [HTTP API library (Superagent)](courses/core/13-http-apis-in-javascript.md)
+  * [HTTP](courses/core/http.md)
+  * [HTTP APIs](courses/core/http-apis.md)
+  * [HTTP API library (Superagent)](courses/core/http-apis-in-javascript.md)
 
 * Building an interactive website (2016 style!)
-  * [ES6/7](courses/core/10-es6.md)
-  * [React](courses/core/14-react.md)
+  * [ES6/7](courses/core/es6.md)
+  * [React](courses/core/react.md)
   * Routing (React router? pages.js)
 
 ## Side Quests
 
-* [Advanced HTML and CSS](courses/side-quests/a-advanced-html-and-css.md)
-* [React-Native](courses/side-quests/d-react-native.md)
-* [Bash and Linux](courses/side-quests/e-bash.md)
-* [Backend Development](courses/side-quests/f-backend-dev.md)
+* [Advanced HTML and CSS](courses/side-quests/advanced-html-and-css.md)
+* [React-Native](courses/side-quests/react-native.md)
+* [Bash and Linux](courses/side-quests/bash.md)
+* [Backend Development](courses/side-quests/backend-dev.md)

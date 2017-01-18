@@ -12,7 +12,7 @@ You'll:
 
 ## Prerequisites
 
-* [html and css foundations](1-html-and-css-foundations.md)
+* [html and css foundations](html-and-css-foundations.md)
 
 ## Advice
 Bootstrap is a great tool when you're starting out. When you get more advanced you might move away from it.

@@ -11,7 +11,7 @@ You'll:
 
 ## Prerequisites
 
-* [html and css foundations](1-html-and-css-foundations.md)
+* [html and css foundations](html-and-css-foundations.md)
 
 ## Advice
 
