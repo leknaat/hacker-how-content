@@ -6,7 +6,7 @@ The course is designed around 'Abilities' and grouped into courses. The scheme i
 
 Courses typically consist of hand picked material from across the web. Suplimented with any other relevant information and some tasks.
 
-Before you start please tackle the [prerequisites](courses/core/0-prerequisites).
+Before you start please complete the [prerequisites](courses/core/0-prerequisites.md).
 
 ## Abilities
 
