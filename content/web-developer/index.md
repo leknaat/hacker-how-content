@@ -19,13 +19,15 @@ Before you start please complete the [prerequisites](courses/core/0-prerequisite
 * Building an interactive website (2010 style!, looks horrible)
   * [Javascript Foundations](courses/core/3-javascript-foundations.md)
   * [JQuery](courses/core/5-jquery.md)
+  * [Underscore / Lodash](courses/side-quests/c-underscore-and-lodash.md)
 
-* Building a static website with some nice styling
+* Nicely styling websites
   * [Bootstrap](courses/core/2-bootstrap.md)
   * [Sass](courses/core/7-sass.md)
   * [Npm (and require)](courses/core/6-node-quickly.md)
   * [Webpack for 'building' a codebase](courses/core/8-webpack.md)
   * [Bootstrap with Sass](courses/core/9-bootstrap-with-sass.md)
+  * [CSS Layouts and Flexbox](courses/side-quests/b-css-layouts-and-flexbox.md)
 
 * Accessing external data via HTTP JSON APIs
   * [HTTP](courses/core/11-http.md)
@@ -40,8 +42,6 @@ Before you start please complete the [prerequisites](courses/core/0-prerequisite
 ## Side Quests
 
 * [Advanced HTML and CSS](courses/side-quests/a-advanced-html-and-css.md)
-* [CSS Layouts and Flexbox](courses/side-quests/b-css-layouts-and-flexbox.md)
-* [Underscore / Lodash](courses/side-quests/c-underscore-and-lodash.md)
 * [React-Native](courses/side-quests/d-react-native.md)
 * [Bash and Linux](courses/side-quests/e-bash.md)
 * [Backend Development](courses/side-quests/f-backend-dev.md)
