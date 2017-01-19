@@ -31,14 +31,19 @@ We'll be using the Pull Request model so we can take a look at the code you're w
 
 ### Additional / useful
 
-[Git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+* [My Homemade git cheatsheet](../../resources/git-cheat-sheet.md)
+* [Git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 ## Tasks
 
 * Run through the code school course + tasks.
 * Setup git on local machine (you should be using SSH rather than https when you use git (no password prompts))
-  * Install git via [Brew](http://brew.sh/)
-  * [Git Radar](https://github.com/michaeldfallen/git-radar), which makes your command line look awesome.
+  * Mac:
+    * Install git via [Brew](http://brew.sh/)
+    * Install [Git Radar](https://github.com/michaeldfallen/git-radar), which makes your command line look awesome.
+  * Linux:
+    * Install git via apt-get on the command line
+    * Install [Git Radar](http://www.getdeb.net/software/git-radar), which makes your command line look awesome.
   
 * Create a public git repo, create a readme.md, do a commit to master, put that commit on github, create a branch, do a change to readme.md, submit a pull request on that branch on github which we will approve :smile:
 * Start using it for all your future task submissions once you're done :smile:

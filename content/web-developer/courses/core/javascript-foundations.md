@@ -1,6 +1,6 @@
 #Javascript Foundations
 
-Warning: This course is long. It's 4 code school courses. But once you're done, you'll understand everything you need to know about Javascript :smile:.
+Warning: This course is long (and tough). It's 4 code school courses. But once you're done, you'll understand everything you need to know about Javascript :smile:.
 
 ## Outcome
 
@@ -11,7 +11,7 @@ You'll:
 
 ## Prerequisites
 
-* [html and css foundations](1-html-and-css-foundations.md)
+* [html and css foundations](html-and-css-foundations.md)
 
 ## Advice
 
@@ -52,6 +52,6 @@ You'll:
 
 * Do all the code school courses and tasks above.
 
-* Write a local program which prints 'Hello World' to the console
+* Write a program which prints 'Hello World' to the console inside the chrome debugging console
 
 

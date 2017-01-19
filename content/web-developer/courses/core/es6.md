@@ -20,13 +20,14 @@ Browsers don't support ES6 natively ([they do support some features](https://kan
 ## Learning materials
 
 ### Core
-
+* [Codeschool course](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come)
 * [ES6 Features](https://github.com/lukehoban/es6features#readme)
 * [ES7 Features](https://github.com/hemanth/es7-features#readme)
 
 ## Tasks
 
-* Take a look at theese ES6 Features we'll be using.
+* Watch the codeschool
+* Take a look at theese ES6 Features we'll be using in the docs (linked above).
   * let
   * arrows
   * template strings

@@ -25,7 +25,7 @@ The whole point is to make CSS less rubbish :). The most common features we'll u
 
 Bootstrap can be imported purely as Sass, you can then override a massive list of variables to control almost every aspect of how it works (colors, paddings, fonts etc.).
 
-There are bunch of useful Sass things in library [Bourbon](http://bourbon.io/). It's too advanced for me :).  But I know some good frontend devs use it :).
+There are bunch of useful Sass things in library [Bourbon](http://bourbon.io/). 
 
 ###Building Sass
 
