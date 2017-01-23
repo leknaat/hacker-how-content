@@ -14,7 +14,7 @@ You'll understand:
 * Text editor ([Sublime Text 3](https://www.sublimetext.com/3))
 * Web browser ([Chrome](https://www.google.com/chrome/))
 * [Code School subscription](https://www.codeschool.com/pricing) ($21)
-* [(free) Codecademy account](https://www.codecademy.com/)
+* [Codecademy subscription](https://www.codecademy.com/)
 
 ## Advice
 
@@ -58,7 +58,7 @@ The videos talks alot about 'resetting' the css to override the browser defaults
 ## Tasks
 
 * Run through the core learning materials + tasks.
-* [Codecademy problems](https://www.codecademy.com/en/courses/html-css-prj)
+* [Codecademy problems](https://www.codecademy.com/learn/web)
   * Broadway
   * Innovation Cloud
   * Move
