@@ -18,8 +18,8 @@ Before you start please complete the [prerequisites](courses/core/prerequisites.
 
 * Building an interactive website (2010 style!, looks horrible)
   * [Javascript Foundations](courses/core/javascript-foundations.md)
+  * [Underscore / Lodash](courses/core/underscore-and-lodash.md)  
   * [JQuery](courses/core/jquery.md)
-  * [Underscore / Lodash](courses/core/underscore-and-lodash.md)
 
 * Nicely styling websites
   * [Bootstrap](courses/core/bootstrap.md)
