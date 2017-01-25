@@ -7,7 +7,7 @@ You'll:
 * Be able to use the common git commands
 * Collaborate with other developers
 * Version your code so you can back to any previous point in time
-* Use github to store your code 
+* Use github to store your code
 * Understand Github's Pull Request's for reviewing code
 
 ## Prerequisites
@@ -44,6 +44,6 @@ We'll be using the Pull Request model so we can take a look at the code you're w
   * Linux:
     * Install git via apt-get on the command line
     * Install [Git Radar](https://github.com/michaeldfallen/git-radar)(manual install instructions), which makes your command line look awesome.
-  
-* Create a public git repo, create a readme.md, do a commit to master, put that commit on github, create a branch, do a change to readme.md, submit a pull request on that branch on github which we will approve :smile:. Do `git status` at each step.
+
+* Do [this task](../../tasks/git-tasks.md)
 * Start using it for all your future task submissions once you're done :smile:
