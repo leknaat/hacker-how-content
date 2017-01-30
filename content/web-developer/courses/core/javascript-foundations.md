@@ -54,4 +54,4 @@ You'll:
 
 * Write a program which prints 'Hello World' to the console inside the chrome debugging console
 
-* [Javascript Tasks](../../tasks/javascript.md)
+* [Javascript Tasks](../../tasks/javascript-tasks.md)
