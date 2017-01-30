@@ -1,3 +1,4 @@
+Do all of the below in Chrome debugging console.
 
 
 ###1
