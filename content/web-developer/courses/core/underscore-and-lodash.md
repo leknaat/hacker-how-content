@@ -37,6 +37,7 @@ Functions which I use often:
 * http://www.pluralsight.com/courses/underscore-fundamentals
 * http://underscorejs.org/
 * https://lodash.com/docs
+* https://leanpub.com/lodashcookbook/read#leanpub-auto-lodash-features <- Good examples
 
 ## Tasks
 
