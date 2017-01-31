@@ -13,7 +13,7 @@ You'll:
 
 ## Advice
 
-Javascript has a poor reputation for a programming language. ES6 is a masssive step forward to making things 'proper'. It will make your coding more concise more readible. It will also help you when you come to learn other languages (most of the features are borrowed from elsewhere.)
+Javascript has a poor reputation for a programming language. ES6 is a masssive step forward to making things 'proper'. It will make your coding more concise and readible. It will also help you when you come to learn other languages (most of the features are borrowed from elsewhere.)
 
 Browsers don't support ES6 natively ([they do support some features](https://kangax.github.io/compat-table/es6/)), so we have to transpile ES6 -> ES5 for compatability in older browsers. To do this there is a tool called [Babel](https://babeljs.io/) (it's already in all our webpack projects :smile:).
 
@@ -28,7 +28,7 @@ Browsers don't support ES6 natively ([they do support some features](https://kan
 
 * Watch the codeschool
 * Take a look at theese ES6 Features we'll be using in the docs (linked above).
-  * let
+  * let & const
   * arrows
   * template strings
   * modules

@@ -171,7 +171,7 @@ Inside any of the functions we pass into `createClass` e.g. `render`.  We can ac
 
 ###How to think about React
 
-* React is a library which lets you create new HTML tags (components) e.g: `<hero name='Puck'/>`.
+* React is a library which lets you create new HTML tags (components) e.g: `<cat name='Pickles'/>`.
 * React components are essentially: `props` (immutable) + `state` (can change) and a `render` function which probably talks about `props` and `state`.
   * Think of react as: `function render(props, state) { return(<div>{this.props.name} {this.state.somethingElse}) }`
   * This function gets called every time state changes and will automatically update the DOM.

@@ -1,7 +1,6 @@
+Do all of the below in Chrome debugging console. If you get stuck [learn to debug](../courses//core/debugging.md).
+
 Create a github repo and commit your answers regularly inside the repo.
-
-Do all of the below in Chrome debugging console.
-
 
 ###1
 
