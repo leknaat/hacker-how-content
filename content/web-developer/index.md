@@ -22,11 +22,16 @@ Before you start please complete the [prerequisites](courses/core/prerequisites.
   * [Underscore / Lodash](courses/core/underscore-and-lodash.md)
   * [JQuery](courses/core/jquery.md)
 
+* Building an interactive website (2016 style!)
+  * [ES6/7](courses/core/es6.md)
+  * [Npm (and require)](courses/core/node-quickly.md)
+  * [Webpack for 'building' a codebase](courses/core/webpack.md)
+  * [React](courses/core/react.md)
+  * Routing (React router? pages.js)
+
 * Nicely styling websites
   * [Bootstrap](courses/core/bootstrap.md)
   * [Sass](courses/core/sass.md)
-  * [Npm (and require)](courses/core/node-quickly.md)
-  * [Webpack for 'building' a codebase](courses/core/webpack.md)
   * [Bootstrap with Sass](courses/core/bootstrap-with-sass.md)
   * [CSS Layouts and Flexbox](courses/core/css-layouts-and-flexbox.md)
 
@@ -35,10 +40,7 @@ Before you start please complete the [prerequisites](courses/core/prerequisites.
   * [HTTP APIs](courses/core/http-apis.md)
   * [HTTP API library (Superagent)](courses/core/http-apis-in-javascript.md)
 
-* Building an interactive website (2016 style!)
-  * [ES6/7](courses/core/es6.md)
-  * [React](courses/core/react.md)
-  * Routing (React router? pages.js)
+
 
 ## Side Quests
 

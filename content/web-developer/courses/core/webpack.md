@@ -7,9 +7,9 @@ You'll:
 * Have a basic understanding of what webpack is and what it's used for.
 * Be able to use webpack using our seed project.
 
-## Prerequisites
+You won't:
 
-* SASS and ES6 help.
+* Be a pro with webpack and be editing that complicated webpack.config.js file any time soon :p
 
 ## Advice
 
