@@ -32,9 +32,9 @@ print the length of the var (7).
 
 ###5
 
-var people = ['Jack', 'John', 'James']
+`var people = ['Jack', 'John', 'James']`
 
-Using print out all these names to the console.
+Using `people` print out all these names to the console.
 
 ###6
 
