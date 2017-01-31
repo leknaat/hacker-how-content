@@ -1,3 +1,5 @@
+Create a github repo and commit your answers regularly inside the repo.
+
 Do all of the below in Chrome debugging console.
 
 
