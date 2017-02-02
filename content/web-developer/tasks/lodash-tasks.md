@@ -1,5 +1,6 @@
-#Javascript tasks
+#Lodash tasks
 
+These tasks should be completed mostly by using lodash.
 
 ##People
 
