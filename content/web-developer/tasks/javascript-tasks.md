@@ -2,6 +2,8 @@ Do all of the below in Chrome debugging console. If you get stuck [learn to debu
 
 Create a github repo and commit your answers regularly inside the repo.
 
+Place these inside of a .js file -- it can be a separate file, or all in the same file. Be mindful that you should test often by linking the .js file into a .html file to check the developer console to ensure your code is running smoothly.
+
 ###1
 
 ```
