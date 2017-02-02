@@ -14,9 +14,12 @@ Lodash and Underscore serve the same purpose and are 98% the same as far as I ca
 
 Functions which I use often:
 
+Must know:
 * Map
-* Find
 * Filter
+
+Quite often:
+* Find
 * Where
 * FindWhere
 * Reject
