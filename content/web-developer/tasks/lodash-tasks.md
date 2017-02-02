@@ -1,6 +1,6 @@
 #Lodash tasks
 
-These tasks should be completed mostly by using lodash.
+These tasks should be completed mostly by using lodash. Search the lodash docs to find functions which might help you complete the tasks in the simplest way.
 
 ##People
 
