@@ -2,6 +2,8 @@
 
 These tasks should be completed mostly by using lodash. Search the lodash docs to find functions which might help you complete the tasks in the simplest way.
 
+Answers should all start from just the `gillFamily` variable and shouldn't use vars from other answers. (Using the same code twice is obviously ok if that's what's required).
+
 ##People
 
 ```
