@@ -39,7 +39,7 @@ Write the code to calculate how many members of the gill family are under 50?
 Write the code to produce a comma seperated string of the Gill family members who are under 50's names with surnames. e.g. `'richard gill, john gill, daniel gill'`
 
 ###9
-Create a html table of Gill family members with name and age headings. Display it on the page.
+Create a html table of Gill family members with name and age headings. Print the HTML as a string to the console.
 
 e.g.
 ```
