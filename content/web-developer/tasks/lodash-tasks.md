@@ -43,8 +43,9 @@ Create a html table of Gill family members with name and age headings. Print the
 
 e.g.
 ```
-NAme | Age
-Richard 27
+<table>
+  <thead>
+...
 ```
 ###10
 Some gill family members are sensitive about their age. If the family member is over 26. Drop their age.
