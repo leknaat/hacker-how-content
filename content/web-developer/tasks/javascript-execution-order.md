@@ -26,8 +26,8 @@ Answer:
 [1,2,3].length
 // => 3
 
-Math.sum([1, 2, 3, 4])
-// => 10
+Math.sum([1, 2, 3, 3])
+// => 9
 ```
 
 If you get stuck. Use the chrome debugger to test things out.
