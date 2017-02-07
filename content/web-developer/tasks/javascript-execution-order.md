@@ -5,6 +5,7 @@ Write the execution order of:
 ```
 Math.sum([1,2,3, [1,2,3].length])
 ```
+
 Answer:
 ```
 1
@@ -28,6 +29,8 @@ Answer:
 Math.sum([1, 2, 3, 4])
 // => 10
 ```
+
+If you get stuck. Use the chrome debugger to test things out.
 
 ##1
 ```
