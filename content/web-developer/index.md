@@ -19,6 +19,7 @@ Before you start please complete the [prerequisites](courses/core/prerequisites.
 * Building an interactive website (2010 style!, looks horrible)
   * [Javascript Foundations](courses/core/javascript-foundations.md)
   * [Debugging](courses/core/debugging.md)
+  * [Javascript Excecution Order](courses/core/javascript-execution-order.md)
   * [Underscore / Lodash](courses/core/underscore-and-lodash.md)
   * [JQuery](courses/core/jquery.md)
 
