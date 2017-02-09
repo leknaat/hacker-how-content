@@ -30,7 +30,6 @@ What will webpack do for us:
 
 ## Tasks
 
-* *Skim* through the cookbook.
 * Checkout the [sample webpack project](https://github.com/richardgill/webpack-seed).
   * Read the readme for the commands you can run
   * Modify some SCSS and check it compiles to CSS and you can see it in chrome
