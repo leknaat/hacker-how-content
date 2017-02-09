@@ -28,12 +28,6 @@ What will webpack do for us:
 * Transpile ES6 (latest) Javascript into ES5 (current version which all browsers support) Javascript
 * Watch for your files to change, and automatically redo the above transpiles and refresh your browser automatically.
 
-## Learning materials
-
-### Core
-
-* [Webpack Cookbook](https://christianalfoni.github.io/react-webpack-cookbook/index.html) Sections: Intro, 1, 3, skim 4 (skim everything a bit I think)
-
 ## Tasks
 
 * *Skim* through the cookbook.
