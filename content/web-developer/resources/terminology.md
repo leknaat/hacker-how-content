@@ -74,7 +74,9 @@ Expressions can contain sub expressions. There is an order Javascript will execu
 
 e.g. 
 `1` <- a very simple expression
+
 `1 + 1` <- an expression which contains other expressions within it.
+
 `"hello".substring(0, 3).length`
   ^3      ^4       ^1 ^2 ^5    <-- execution order
 
