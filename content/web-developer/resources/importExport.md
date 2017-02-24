@@ -105,6 +105,22 @@ import adder from './maths'
 
 console.log(adder(1, 2)) // => prints 3
 ```
+4.
+
+`myFolder/maths.js`
+```
+export default (a, b) => a + b // Banana function
+```
+
+
+`myFolder/doSomeMaths.js`
+```
+import anyNameIGoddamPleaseAdder from './maths'
+
+//anyNameIGoddamPleaseAdder is a function (lambda)
+
+console.log(anyNameIGoddamPleaseAdder(1, 2)) // => prints 3
+```
 
 
 ### Exporting a const
