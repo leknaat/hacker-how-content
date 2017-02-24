@@ -21,12 +21,19 @@ This is only to help human beings understand what the hell is going on. Javascri
 * You can only `export default` once per file. 
 * It exports a expression not a declaration.
 
+
 `export default "Banana"`
+
 `export default 1`
+
 `export default [1,2,3]`
+
 `export default {hello: "world"}`
+
 `export default (a, b) => a + b` <--- functions are good :)
+
 `export default (a, b) => { return a + b }`
+
 `export default const x = 1` <----ERROR can't export a const.
 
 You can then import your `export default`'d expression in another file.
