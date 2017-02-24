@@ -81,6 +81,78 @@ e.g.
 "hello".substring(0, 3).length`
  ^3      ^4       ^1 ^2 ^5    <-- execution order
 ```
+# Inline
+
+Taking lots of small bits of javascript and putting them together. 
+
+e.g.
+
+```
+const x = "hello"
+console.log(x)
+
+// Can be inlined to 
+
+console.log("hello")
+```
+
+To inline at something you'll have a var declared somewhere and some code which uses it. To inline you take the right hand side of the declaration and 'inline' it directly into the usage.
+
+```
+const x = "hello"
+          ^^^^^^^   <- Right hand Side
+console.log(x)
+
+// Can be inlined to 
+
+console.log("hello")
+            ^^^^^^^
+```
+
+
+# Statement
+
+Statements contain one or more expressions.
+Statements can be ended with either a semi colon or a new line. 
+A line of code. When you're using the debugger and use the jump to next line of button. 
+
+e.g. 
+`console.log("Hello");` <- 1 Statement containing a few expressions 
+
+e.g.
+
+`console.log("Hello"); console.log("Goodbye");` <- 2 Statements on 1 line. That's allowed.
+
+
+They don't always end on a new line.
+
+```
+const x = 1 + 2 + 3
+  + 4 + 5
+  + 6 + 7
+```
+Is one statement even though it goes over a few lines. 
+
+If you use a semi colon or start a new statement the previous statement is finished.
+
+e.g. We can remove just one `+` from the previous example to create two statements. 
+```
+const x = 1 + 2 + 3
+  + 4 + 5 <- Statement 1
+6 + 7 // <- Statement 2
+```
+
+A common case we'll see alot is:
+
+```
+_.map([1,2,3], (number) => {  //<- Statement 1
+  return number + 1           //<- Still statement 1 and also a statement inside the lambda: return number + 1
+})                            //<- Still statement 1
+
+```
+The debugger will jump over these three lines in one go. 
+
+
 # Declaration (sometimes called: definition or defining)
 
 `const x = "x"` is a declaration. We say you're "Declaring x".
@@ -92,6 +164,7 @@ var x = 1
 const myArray = []
 const myObject = {hello: "world"}
 ```
+
 
 ###Library
 
