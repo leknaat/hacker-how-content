@@ -77,9 +77,10 @@ e.g.
 
 `1 + 1` <- an expression which contains other expressions within it.
 
-`"hello".substring(0, 3).length`
-  ^3      ^4       ^1 ^2 ^5    <-- execution order
-
+```
+"hello".substring(0, 3).length`
+ ^3      ^4       ^1 ^2 ^5    <-- execution order
+```
 # Declaration (sometimes called: definition or defining)
 
 `const x = "x"` is a declaration. We say you're "Declaring x".
