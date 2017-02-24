@@ -149,3 +149,58 @@ You can do:
 `export const adder1 = (a, b) => { return a + b }`
 
 `export 1` <----ERROR can't export an expression.
+
+### Examples
+
+1.
+
+`myFolder/banana.js`
+```
+export const banana = "Banana!"
+```
+
+
+`myFolder/fruitBowl.js`
+```
+import { banana } from './banana'
+
+console.log(banana) // => prints "Banana!"
+```
+
+2.
+
+`myFolder/banana.js`
+```
+export const banana = () => "Banana!" // Banana function
+```
+
+
+`myFolder/fruitBowl.js`
+```
+import { banana } from './banana'
+
+//banana is a function (lambda)
+
+console.log(banana()) // => prints "Banana!"
+```
+
+3.
+
+`myFolder/banana.js`
+```
+export const banana = () => "Banana!" // Banana function
+export default "Bananananana!"
+```
+
+
+`myFolder/fruitBowl.js`
+```
+import banananana, { banana } from './banana' // You can do both at once!
+//banananana is a string
+//banana is a function (lambda)
+
+console.log(banananana) // => prints "Bananananana!"
+console.log(banana()) // => prints "Banana!"
+```
+
+
