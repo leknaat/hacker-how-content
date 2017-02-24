@@ -127,9 +127,9 @@ e.g.
 They don't always end on a new line.
 
 ```
-const x = 1 + 2 + 3
-  + 4 + 5
-  + 6 + 7
+const x = 1 + 2 + 3 //<- Statement 1
+  + 4 + 5  //<- Still statement 1
+  + 6 + 7  //<- Still statement 1
 ```
 Is one statement even though it goes over a few lines. 
 
@@ -138,7 +138,7 @@ If you use a semi colon or start a new statement the previous statement is finis
 e.g. We can remove just one `+` from the previous example to create two statements. 
 ```
 const x = 1 + 2 + 3
-  + 4 + 5 <- Statement 1
+  + 4 + 5  //<- Statement 1
 6 + 7 // <- Statement 2
 ```
 
