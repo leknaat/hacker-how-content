@@ -10,7 +10,7 @@ It then automatically adds one `<script src"oneMassiveJavascriptFile.js" />` to 
 
 ## Why export and import?
 
-You can write all your code in one giant file. It will work, but it just gets confusing once you have a 3000 line file. In general we like to have files which are less than 2 screen heights.
+You can write all your code in one giant file. It will work, but it just gets confusing once you have a 3000 line file. In general we like to have files which are less than 2 screens high.
 
 This is only to help human beings understand what the hell is going on. Javascript doesn't care if you break it up, because it's a computer.
 
@@ -19,8 +19,9 @@ This is only to help human beings understand what the hell is going on. Javascri
 ### How it works
 
 * You can only `export default` once per file. 
-* It exports a expression not a declaration.
+* It exports an expression not a declaration.
 
+You can do:
 
 `export default "Banana"`
 
