@@ -7,23 +7,23 @@ Special built-in keywords you can use in the middle of an expression which do th
 Examples:
 
 ```
-#Add
+#Add +
 1 + 1
 => 2
 
-#Subtract
+#Subtract -
 1 - 1
 => 0
 
-#Divide
+#Divide /
 9 / 3 
 => 3
 
-#Multiply (times)
+#Multiply (times) *
 3 * 3 
 => 9
 
-#Mod (Modulus)
+#Mod (Modulus) %
 Tells you the remainder of a division
 
 9 % 3
@@ -32,7 +32,7 @@ Tells you the remainder of a division
 9 % 2
 => 1 (because it goes in 4 times remainder 1)
 
-#And
+#And &&
 true && false
 => false
 false && true
@@ -42,7 +42,7 @@ false && false
 true && true
 => true
 
-#Or
+#Or ||
 true || false
 => true
 
