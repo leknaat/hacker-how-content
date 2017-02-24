@@ -123,5 +123,29 @@ console.log(anyNameIGoddamPleaseAdder(1, 2)) // => prints 3
 ```
 
 
-### Exporting a const
-`export const apples = 
+## Exporting a const
+
+### How it works
+You can also name your exports by doing an `export const`.
+
+
+* This only works with declarations. It doesn't work with expressions.
+* You can have as many `export const`s as you like provided they all have different names.
+* Names matter when importing.
+
+You can do:
+
+
+`export const banana = "Banana"`
+
+`export const aNumber = 1`
+
+`export const myArray = [1,2,3]`
+
+`export const helloWorld = {hello: "world"}`
+
+`export const adder = (a, b) => a + b` <--- functions are good :)
+
+`export const adder1 = (a, b) => { return a + b }`
+
+`export 1` <----ERROR can't export an expression.
