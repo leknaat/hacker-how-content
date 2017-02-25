@@ -1,26 +1,27 @@
 #Exporting and Importing
-Setup
 
-Checkout https://github.com/z-dev/react-seed and follow the instructions in the `readme.md`
+##Setup
 
-Once it's up and running go to http://localhost/importExportTasks.
+Follow [these instructions](./cloneReactSeedInstructions.md)
 
-`import` and test your answers in `src/components/importExport/index.js`
+Once it's up and running go to http://localhost:3000/importExportTasks.
 
-All your answers should go in the `src/components/importExport` 
+`import` and test your answers in `src/components/importExportTasks/index.js`
+
+All your answers should go in the `src/components/importExportTasks` 
 
 1. 
 
 `export default` a string: "Banana!" in a file `banana.js`
 
-import it and `console.log` it in `src/components/importExport/index.js`
+import it and `console.log` it in `src/components/importExportTasks/index.js`
 
 
 2.
 
 In addition to a) `export` a `const` called `apple` which contains a string: "Apple!" in a file `apple.js`
 
-import it and `console.log` it in `src/components/importExport/index.js`
+import it and `console.log` it in `src/components/importExportTasks/index.js`
 
 
 3.
@@ -29,7 +30,7 @@ import it and `console.log` it in `src/components/importExport/index.js`
 
 The function should take two numbers and return the result of adding them together.
 
-import it and `console.log` the output in `src/components/importExport/index.js`.
+import it and `console.log` the output in `src/components/importExportTasks/index.js`.
 
 4.
 
@@ -39,13 +40,13 @@ Add an export default of a string `'Get your fruits here'`
 
 Add two exported consts `apple` and `banana`
 
-Import all three and `console.log` the output in `src/components/importExport/index.js`.
+Import all three and `console.log` the output in `src/components/importExportTasks/index.js`.
 
 5.
 
 Create a folder `pies`
 
-Then in `src/components/importExport/index.js`, make this work:
+Then in `src/components/importExportTasks/index.js`, make this work:
 ```
 import pieMenu, {applePie, blueberryPie} from './pies'
 
@@ -65,5 +66,5 @@ In our projects you can install a module using Yarn (Yarn is like a better versi
 
 You will see the `package.json` and `yarn.lock` files have changed (you'll want to commit those changes too!).
 
-Once you have installed it you can use `import` to import `'cat-names'` module and use it in your code. (We don't use require except in special circumstances).
+Once you have installed it you can use `import` to import `'cat-names'` module and use it in your code. (We don't use `require` except in special circumstances).
 
