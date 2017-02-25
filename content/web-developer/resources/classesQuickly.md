@@ -59,6 +59,7 @@ class Apple {
 
    constructor() {
      super() // <- Must be here. Must go first
+     console.log('This code gets called before anything else in the class')
    }
 
 }
