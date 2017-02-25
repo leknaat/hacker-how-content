@@ -62,7 +62,7 @@ React lets you write functions which return JSX. It then puts that JSX/HTML insi
 ### Stateless Functional Components (Not covered in code school).
 
 ```
-const Banana = () => <p>Banana</p> 
+const Banana = () => <p>Banana</p> // Just a lambda that returns some JSX
 ```
 
 We call `Banana` a **component**. Components start with capital letters.
@@ -75,4 +75,23 @@ const FruitBowl = () => <Banana /> // Renders <p>Hello</p> on the screen
 
 `<Banana />` is a special syntax for calling the function we defined above. 
 
-`<Banana /> === Banana()`
+`<Banana />` is like saying: `Banana()`
+
+#### With Props
+
+Props is an object which contains all the arguments to our component.
+
+```
+const Cat = (props) => <p>Meow my name is: {props.name}</p> 
+```
+`props` comes in as a parameter in your lambda. 
+
+```
+const Geoff = () => <Cat name={'Geoff'} /> // Renders <p>Meow my name is: Geoff</p> on the screen
+```
+
+In this case we're calling our `Cat` function with a single prop: `name` with a value of `'Geoff'`.
+
+`<Cat name={'Geoff'} />` is like saying: `Cat({name: 'Geoff'})`
+Both would return `<p>Meow my name is: Geoff</p>`
+
