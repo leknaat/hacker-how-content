@@ -55,3 +55,10 @@ Objects are also a type of collection. They have keys and values. Keys are usual
 {hello: {world: 1}} // Object with object with integer inside
 {hello: [1,2,3]} // Object with array of integers
 ```
+
+## Don't mix types inside collections
+It works. But it's confusing. Probably best not to.
+```
+[1,"Oh no!", [1,2,3]] 
+{hello: "buddy", goodbye: 11}
+```
