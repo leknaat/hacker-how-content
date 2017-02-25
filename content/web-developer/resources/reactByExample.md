@@ -26,7 +26,10 @@ A good example is `class="my-css-class"`
 
 e.g.
 
-`<button class="my-css-class">Click Me</button>` -> `<button className="my-css-class">Click Me</button>`
+```
+HTML                                               JSX
+<button class="my-css-class">Click Me</button>` -> `<button className="my-css-class">Click Me</button>
+```
 
 #### You can write Javascript inside your JSX.
 
