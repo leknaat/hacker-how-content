@@ -185,7 +185,7 @@ You can't make props change without using state.
 class Cat extends Component {
   constructor() {
     super() // <- This is just always needed
-    this.state = {name: 'Geoff'}
+    this.state = {name: 'Geoff'} // Set the initial state
   }
   render() {
     return (
