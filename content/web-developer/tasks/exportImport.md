@@ -56,3 +56,14 @@ console.log(applePie)
 console.log(blueberryPie)
 // prints "Blueberry Pie"
 ```
+
+6.
+
+Use the excellently useful npm module 'cat-names' to generate a name for you cat: https://www.npmjs.com/package/cat-names
+
+In our projects you can install a module using Yarn (Yarn is like a better version of npm) like this: `yarn add <module_name>`.
+
+You will see the `package.json` and `yarn.lock` files have changed (you'll want to commit those changes too!).
+
+Once you have installed it you can use `import` to import `'cat-names'` module and use it in your code. (We don't use require except in special circumstances).
+
