@@ -62,3 +62,25 @@ It works. But it's confusing. Probably best not to.
 [1,"Oh no!", [1,2,3]] 
 {hello: "buddy", goodbye: 11}
 ```
+
+## Functions expect particular types as parameter
+
+When you call a function that function's parameters are expected to be a particular type.
+
+```
+Maths.abs(-7)
+// => 7
+
+Maths.abs(-7.7)
+// => 7.7
+``` 
+
+`Maths.abs` expects an integer or a float. But if you pass something else that just doesn't make sense.
+
+e.g. `Maths.abs("Spaghetti")` doesn't really make sense
+
+## Functions return particular types
+
+Return types are the same `Maths.abs` returns a float if you give it a float, and an integer if you give it an integer.
+
+In Javascript there is no easy way to tell what the parameter types and return types are. You must look at other examples and read documentation of libraries to figure it out.
