@@ -1,10 +1,10 @@
-#Types
+#Javascript Types
 
 Types are important to understand to program Javascript
 
 ## Resources
 
-[Types](../../resources/types.md)
+[Types](../../resources/javascriptTypes.md)
 
 ## Tasks
 
