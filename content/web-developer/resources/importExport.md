@@ -221,3 +221,7 @@ import banana from './banana' <- just the folder
 
 console.log(banana) <- prints 'Banana!'
 ```
+
+## Import npm modules
+
+If you have an npm module in your project. You can import it like this `import _ from 'lodash'`. Some libraries also have `const` exports, some don't. Read the documentation (usually the github for the project) to find out how exactly to import it and what you can do with it.
