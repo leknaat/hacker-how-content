@@ -54,10 +54,45 @@ var elementType = 'div'
 var someHtml = <elementType></elementType>
 // => <div></div>
 ```
+#### JSX in JSX
+
+Since JSX is just javascript (it's a new type remember!)
+
+You can also put that inside `{}`
+
+```
+const apple = <p>Apple!</p>
+<div>{apple}</div>
+// => <div><p>Apple!</p></div>
+```
+
+#### Arrays in JSX
+
+If you use `{}` with an array. JSX will put each thing in the array one after the other.
+
+```
+const fruits = [
+  <p>Apple</p>,
+  <p>Banana</p>,
+  <p>Pear</p>
+]
+<div>{fruits}</div>
+// => <div><p>Apple</p> <p>Banana</p> <p>Pear</p></div>
+```
+
+This makes `map` **really** useful:
+
+```
+const numbers = [1, 2, 3]
+const numbersJSX = _.map(numbers, (number) => <p>{number}</p>) // Returns [<p>1</p>, <p>2</p>, <p>3</p>] 
+<div>{numbersJSX}</div>
+// =>  <div><p>1</p> <p>2</p> <p>3</p></div>
+```
+
 
 ## React
 
-React lets you write functions which return JSX. It then puts that JSX/HTML inside your web browser (on the screen). 
+React takes functions which return JSX, evalutes them, and puts that JSX/HTML inside your web browser (on the screen). 
 
 ### Stateless Functional Components (Not covered in code school).
 
@@ -94,4 +129,5 @@ In this case we're calling our `Cat` function with a single prop: `name` with a 
 
 `<Cat name={'Geoff'} />` is like saying: `Cat({name: 'Geoff'})`
 Both would return `<p>Meow my name is: Geoff</p>`
+
 
