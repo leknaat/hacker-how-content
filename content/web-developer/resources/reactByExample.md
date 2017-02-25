@@ -9,7 +9,7 @@ const banana = "banana"
 const appleCount = 1 
 const myArray = []
 const myObject = {hello: 1}
-const someHtml = <p>Hello!</p> <- JSX
+const someHtml = <p>Hello!</p> // <- JSX
 ```
 
 Notice there are no quotes around it. It's not a string. It's a whole new type.
@@ -22,7 +22,7 @@ Notice there are no quotes around it. It's not a string. It's a whole new type.
 * They're [camel cased](https://en.wikipedia.org/wiki/Camel_case)
 * Sometimes they're a tiny bit different from normal HTML [Read more](https://facebook.github.io/react/docs/tags-and-attributes.html)
 
-A good example is `class="my-css-class`
+A good example is `class="my-css-class"`
 
 e.g.
 
@@ -35,11 +35,13 @@ JSX works just like normal HTML unless you do one thing. If you put `{}` then in
 ```
 var x = 1
 var someHtml = <div>{x + 1}</div>
+// => <div>2</div>
 ```
 
 ```
-var buttonClass = 'btn btn-primary'
+var buttonClass = 'my-css-class'
 var button  = <button className={buttonClass}>Click Me</button>
+//=> <button className="my-css-class">Click Me</button>
 ```
 
 *Exception*
@@ -47,6 +49,7 @@ It's quite rare to use it though.
 ```
 var elementType = 'div'
 var someHtml = <elementType></elementType>
+// => <div></div>
 ```
 
 ## React
