@@ -28,7 +28,7 @@ e.g.
 
 ```
 HTML                                               JSX
-<button class="my-css-class">Click Me</button>` -> `<button className="my-css-class">Click Me</button>
+<button class="my-css-class">Click Me</button> -> <button className="my-css-class">Click Me</button>
 ```
 
 #### You can write Javascript inside your JSX.
