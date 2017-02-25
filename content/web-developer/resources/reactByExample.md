@@ -12,7 +12,7 @@ const myObject = {hello: 1}
 const someHtml = <p>Hello!</p> // <- JSX
 ```
 
-Notice there are no quotes around it. It's not a string. It's a whole new type.
+Notice there are no quotes around it - it's not a string. It's a whole new type.
 
 
 ### Differences from normal HTML
@@ -47,8 +47,7 @@ var button  = <button className={buttonClass}>Click Me</button>
 //=> <button className="my-css-class">Click Me</button>
 ```
 
-*Exception*
-It's quite rare to use it though.
+An *Exception* to this rule
 ```
 var elementType = 'div'
 var someHtml = <elementType></elementType>
