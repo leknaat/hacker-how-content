@@ -215,7 +215,7 @@ Import and Exporting has an extra useful trick. If you name a file `index.js` yo
 export default "Banana!"
 ```
 
-`./myFile.js`
+`myFile.js`
 ```
 import banana from './banana' <- just the folder
 
