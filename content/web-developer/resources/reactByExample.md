@@ -65,7 +65,7 @@ React lets you write functions which return JSX. It then puts that JSX/HTML insi
 const Banana = () => <p>Banana</p> 
 ```
 
-We call `Banana` a *component*. Components start with capital letters.
+We call `Banana` a **component**. Components start with capital letters.
 
 You can use this inside another component like this:
 
