@@ -245,7 +245,7 @@ class CatPicker extends Component {
 ```
   <div>
     <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
-    <p>>Meow my name is: Geoff</p>
+    <p>Meow my name is: Geoff</p>
   </div>
 ```
 
@@ -254,6 +254,6 @@ Pressing the button will cause the `name=` prop to change. React automatically r
 ```
   <div>
     <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
-    <p>>Meow my name is: Dave</p>
+    <p>Meow my name is: Dave</p>
   </div>
 ```
