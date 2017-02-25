@@ -1,0 +1,70 @@
+# React
+
+### JSX
+
+Think of JSX as a new type in Javascript (It will only work whilst using webpack).
+
+```
+const banana = "banana"
+const appleCount = 1 
+const someHtml = <p>Hello!</p> 
+```
+
+Notice there are no quotes around it. It's not a string. 
+
+
+### Differences from normal HTML
+
+#### Attribute names are different
+
+* They're [camel cased](https://en.wikipedia.org/wiki/Camel_case)
+* Sometimes they're a tiny bit different from normal HTML [Read more](https://facebook.github.io/react/docs/tags-and-attributes.html)
+
+A good example is `class`
+
+e.g.
+
+`<button class="btn btn-primary">Click Me</button>` -> `<button className="btn btn-primary">Click Me</button>`
+
+#### You can write Javascript inside your JSX.
+
+JSX works just like normal HTML unless you do one thing. If you put `{}` then inside the brackets you go back to javascript.
+
+```
+var x = 1
+var someHtml = <div>{x + 1}</div>
+```
+
+```
+var buttonClass = 'btn btn-primary'
+var button  = <button className={buttonClass}>Click Me</button>
+```
+
+*Exception*
+It's quite rare to use it though.
+```
+var elementType = 'div'
+var someHtml = <elementType></elementType>
+```
+
+## React
+
+React lets you write functions which return JSX. It then puts that JSX/HTML inside your web browser (on the screen). 
+
+### Stateless Functional Components (Not covered in code school).
+
+```
+const Banana = () => <p>Banana</p> 
+```
+
+We call `Banana` a *component*. Components start with capital letters.
+
+You can use this inside another component like this:
+
+```
+const FruitBowl = () => <Banana /> // Renders <p>Hello</p> on the screen
+```
+
+`<Banana />` is a special syntax for calling the function we defined above. 
+
+`<Banana /> === Banana()`
