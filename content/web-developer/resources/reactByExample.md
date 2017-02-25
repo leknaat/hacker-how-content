@@ -209,7 +209,7 @@ It will render:
   </div>
 ```
 
-When you press the button it will render:
+When you press the button `this.setState({name: 'Dave'})` gets called.  State will be updated to be `{name: 'dave'}`. React will automatically rerender your component as:
 ```
   <div>
     <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
