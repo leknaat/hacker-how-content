@@ -178,8 +178,8 @@ You can't make props change without using state.
 
 * State is very similar to props. 
 * State changes can happen over the lifetime of a component. 
-* State is accessed by using `this.state` - just like props
-* State is changed by calling `this.setState({newStateGoes: 'here'})
+* State is accessed by using `this.state` - similarly to props
+* State is changed by calling `this.setState({newStateGoes: 'here'})`
 
 ```
 class Cat extends Component {
@@ -227,7 +227,7 @@ const Cat = (props) => <p>Meow my name is: {props.name}</p>
 class CatPicker extends Component {
   constructor() {
     super() // <- This is just always needed
-    this.state = {name: 'Geoff'}
+    this.state = {name: 'Geoff'} // Set the initial state
   }
   render() {
     return (
