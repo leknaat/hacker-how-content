@@ -16,7 +16,7 @@ Don't use bind like he does. You can use a lambda instead.
 
 ### Core
 * [React CodeSchool](http://campus.codeschool.com/courses/powering-up-with-react/)
-* [Our homegrown React Primer](../../resources/react.md)
+* [Our homegrown React Primer](../../resources/reactByExample.md)
 
 ## Tasks
 
