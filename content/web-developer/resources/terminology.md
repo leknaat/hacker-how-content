@@ -167,6 +167,7 @@ const myObject = {hello: "world"}
 
 ### Component
 
+A reusable thing which is displayed on the screen. It can have parameters which change exactly how it renders.
 
 ###Library
 
