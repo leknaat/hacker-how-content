@@ -203,4 +203,21 @@ console.log(banananana) // => prints "Bananananana!"
 console.log(banana()) // => prints "Banana!"
 ```
 
+## index.js
 
+Import and Exporting has an extra useful trick. If you name a file `index.js` you can import it by just mentioning the name of the folder.
+
+###Example
+
+`banana/index.js`
+
+```
+export default "Banana!"
+```
+
+`./myFile.js`
+```
+import banana from './banana' <- just the folder
+
+console.log(banana) <- prints 'Banana!'
+```
