@@ -31,6 +31,8 @@ class Apple {
 
 When you're inside a class there is a special invisible variable that's always there. It's called `this`. 
 
+`this` is only a thing inside a class. You can't use it outside a class. 
+
 ## Calling a method from a method
 
 You do it using `this.methodName()`
