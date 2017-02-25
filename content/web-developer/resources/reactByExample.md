@@ -132,4 +132,127 @@ In this case we're calling our `Cat` function with a single prop: `name` with a 
 `<Cat name={'Geoff'} />` is like saying: `Cat({name: 'Geoff'})`
 Both would return `<p>Meow my name is: Geoff</p>`
 
+### Components using class
 
+React also allows you to make components using the class syntax
+
+```
+class Cat extends Component {
+  render() {
+    return <p>{this.props.name}</p> //<- This bit is the same
+  }
+}
+```
+
+The props are now in `this.props` rather than just `props`.
+
+This can still be used by saying: `<Cat name={'Geoff'} />`
+
+Using classes is slightly more complicated.
+
+The advantages are:
+
+* You can use `this.state` and `this.setState`
+* You can use the lifecycle methods which fire at different points when your components get rendered.
+
+## Rerendering
+
+React components can be rendered on the screen for some time. React will make sure that your components stay up to day on the screen as changes happen.
+
+### What if props change
+
+If the props change react will rerun your function and the result will be immediately displayed on the screen.
+
+For example:
+
+`() => <Cat name={'Geoff'} />` -> `() => <Cat name={'Dave'} />` 
+
+You'll initially see `<p>Geoff</p>` then you'll see `<p>Dave</p>`
+
+React takes care of this for you automatically.
+
+### Making a change with state
+
+You can't make props change without using state.
+
+* State is very similar to props. 
+* State changes can happen over the lifetime of a component. 
+* State is accessed by using `this.state` - just like props
+* State is changed by calling `this.setState({newStateGoes: 'here'})
+
+```
+class Cat extends Component {
+  constructor() {
+    super() // <- This is just always needed
+    this.state = {name: 'Geoff'}
+  }
+  render() {
+    return (
+      <div>
+        <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+        <p>{this.state.name}</p> //<- We're accessing state here.
+      </div>
+    )
+  }
+}
+```
+
+This component can be used like: `<Cat />`
+
+It will render:
+
+```
+  <div>
+    <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+    <p>Geoff</p>
+  </div>
+```
+
+When you press the button it will render:
+```
+  <div>
+    <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+    <p>Dave</p>
+  </div>
+```
+
+### Using state to change props
+
+You can use this same technique to change props.
+
+```
+const Cat = (props) => <p>Meow my name is: {props.name}</p> 
+
+class CatPicker extends Component {
+  constructor() {
+    super() // <- This is just always needed
+    this.state = {name: 'Geoff'}
+  }
+  render() {
+    return (
+      <div>
+        <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+        <Cat name={this.state.name} /> //<- We're passing some state as a prop.
+      </div>
+    )
+  }
+}
+```
+
+`<CatPicker />` initially renders:
+
+```
+  <div>
+    <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+    <p>Geoff</p>
+  </div>
+```
+
+Pressing the button will cause the `name=` prop to change. React automatically rerenders the whole thing:
+
+```
+  <div>
+    <button onClick={() => this.setState({name: 'Dave'})}>Press Me</button>
+    <p>Dave</p>
+  </div>
+```
