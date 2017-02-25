@@ -12,7 +12,7 @@ class Apple {
 }
 ```
 
-You can then talk about `Apple` by saying: `Apple`. It's like a `const` has been defined.
+You can then talk about `Apple` by saying: `Apple`. It's as if `const` has been defined.
 
 ## Adding a function (method)
 
