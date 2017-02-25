@@ -157,7 +157,8 @@ The advantages are:
 
 ## Rerendering
 
-React components can be rendered on the screen for some time. React will make sure that your components stay up to day on the screen as changes happen.
+React components can be rendered on the screen for some time. React will make sure that your components stay up to date
+on the screen as changes happen.
 
 ### What if props change
 
