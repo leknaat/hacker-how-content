@@ -105,7 +105,8 @@ We call `Banana` a **component**. Components start with capital letters.
 You can use this inside another component like this:
 
 ```
-const FruitBowl = () => <Banana /> // Renders <p>Hello</p> on the screen
+const FruitBowl = () => <Banana /> 
+// Renders <p>Hello</p> on the screen
 ```
 
 `<Banana />` is a special syntax for calling the function we defined above. 
@@ -122,7 +123,8 @@ const Cat = (props) => <p>Meow my name is: {props.name}</p>
 `props` comes in as a parameter in your lambda. 
 
 ```
-const Geoff = () => <Cat name={'Geoff'} /> // Renders <p>Meow my name is: Geoff</p> on the screen
+const Geoff = () => <Cat name={'Geoff'} /> 
+// Renders <p>Meow my name is: Geoff</p> on the screen
 ```
 
 In this case we're calling our `Cat` function with a single prop: `name` with a value of `'Geoff'`.
