@@ -165,6 +165,8 @@ const myArray = []
 const myObject = {hello: "world"}
 ```
 
+### Component
+
 
 ###Library
 
