@@ -67,7 +67,7 @@ const apple = <p>Apple!</p>
 
 #### Arrays in JSX
 
-If you use `{}` with an array. JSX will put each thing in the array one after the other.
+If you use `{}` with an array. JSX will put each thing in the array one after another.
 
 ```
 const fruits = [
@@ -83,7 +83,8 @@ This makes `map` **really** useful:
 
 ```
 const numbers = [1, 2, 3]
-const numbersJSX = _.map(numbers, (number) => <p>{number}</p>) // Returns [<p>1</p>, <p>2</p>, <p>3</p>] 
+const numbersJSX = _.map(numbers, (number) => <p>{number}</p>) 
+// => [<p>1</p>, <p>2</p>, <p>3</p>] 
 <div>{numbersJSX}</div>
 // =>  <div><p>1</p> <p>2</p> <p>3</p></div>
 ```
