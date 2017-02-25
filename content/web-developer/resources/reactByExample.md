@@ -7,10 +7,12 @@ Think of JSX as a new type in Javascript (It will only work whilst using webpack
 ```
 const banana = "banana"
 const appleCount = 1 
-const someHtml = <p>Hello!</p> 
+const myArray = []
+const myObject = {hello: 1}
+const someHtml = <p>Hello!</p> <- JSX
 ```
 
-Notice there are no quotes around it. It's not a string. 
+Notice there are no quotes around it. It's not a string. It's a whole new type.
 
 
 ### Differences from normal HTML
@@ -20,11 +22,11 @@ Notice there are no quotes around it. It's not a string.
 * They're [camel cased](https://en.wikipedia.org/wiki/Camel_case)
 * Sometimes they're a tiny bit different from normal HTML [Read more](https://facebook.github.io/react/docs/tags-and-attributes.html)
 
-A good example is `class`
+A good example is `class="my-css-class`
 
 e.g.
 
-`<button class="btn btn-primary">Click Me</button>` -> `<button className="btn btn-primary">Click Me</button>`
+`<button class="my-css-class">Click Me</button>` -> `<button className="my-css-class">Click Me</button>`
 
 #### You can write Javascript inside your JSX.
 
