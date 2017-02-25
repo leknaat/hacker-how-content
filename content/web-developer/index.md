@@ -27,6 +27,8 @@ Before you start please complete the [prerequisites](courses/core/prerequisites.
   * [ES6/7](courses/core/es6.md)
   * [Npm (and require)](courses/core/node-quickly.md)
   * [Webpack for 'building' a codebase](courses/core/webpack.md)
+  * [Types](courses/core/types.md)
+  * [Importing and Exporting](courses/core/importExport.md)
   * [React](courses/core/react.md)
   * Routing (React router? pages.js)
 
