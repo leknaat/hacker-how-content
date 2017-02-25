@@ -35,8 +35,8 @@ What's the type of:
 
 q6.
 
-What types does `_.map` work on? What does it return in each case? 
+What types does `_.map` accept as parameters? What does it return in each case? 
 
 q7.
 
-What types does `_.filter` work on? What does it return in each case? 
+What types does `_.filter` accept as parameters? What does it return in each case? 
