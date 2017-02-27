@@ -102,7 +102,7 @@ Some languages (e.g. scala) let you write functions which can be used 'infix' li
 
 (2)
 
-[http://www.diffen.com/difference/TCP_vs_UDP](TCP vs UDP). TCP is slower and has more guarentees than UDP. UDP is faster as a result. You would always use something with TCP unless you had performance requirements. When you play DOTA, it will probably use TCP to find a match / manage you friends list, but when it's sending you information about hero movements, that's UDP. Skype will work with UDP.
+[TCP vs UDP](http://www.diffen.com/difference/TCP_vs_UDP). TCP is slower and has more guarentees than UDP. UDP is faster as a result. You would always use something with TCP unless you had performance requirements. When you play DOTA, it will probably use TCP to find a match / manage you friends list, but when it's sending you information about hero movements, that's UDP. Skype will work with UDP.
 
 (3)
 
